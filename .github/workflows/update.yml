@@ -46,6 +46,11 @@ jobs:
           ND_RELEASE: nix-darwin-25.05
         run: ./scripts/build_and_parse_hm_options.rb
 
+      - name: Extract Options Release-25.11 (stable)
+        env:
+          ND_RELEASE: nix-darwin-25.05
+        run: ./scripts/build_and_parse_hm_options.rb
+
       - name: Build Hugo
         run: nix run nixpkgs#hugo -- --minify
 

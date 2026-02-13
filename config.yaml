@@ -4,7 +4,7 @@ title: Xinux Nix Darwin - Option Search
 theme: extranix-options-search
 
 params:
-  release_current_stable: nix-darwin-25.05
+  release_current_stable: nix-darwin-25.11
   releases:
     - name: unstable
       value: master
@@ -12,6 +12,8 @@ params:
       value: nix-darwin-24.11
     - name: 25.05 (stable)
       value: nix-darwin-25.05
+    - name: 25.11 (stable)
+      value: nix-darwin-25.11
 
   release_switch_title: Nix Darwin Release
 
